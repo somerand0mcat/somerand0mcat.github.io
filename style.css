@@ -13,3 +13,7 @@ i {
 body {
     color:white;
 }
+
+.icon {
+    display: inline-block
+}
