@@ -2,18 +2,19 @@ body {
     background-color: #18122B;
 }
 
-div {
+.div {
     background-color: #393053;
 }
 
 i {
-    color:white;
+    color: white;
 }
 
 body {
-    color:white;
+    color: white;
 }
 
 .icon {
-    display: inline-block
+    display: inline-block;
+    padding: 5px
 }
