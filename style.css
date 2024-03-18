@@ -18,3 +18,12 @@ body {
     display: inline-block;
     padding: 5px
 }
+
+.icon-yt {
+    display: inline-block;
+    padding-right: 5px
+}
+
+.blog_desc {
+    display: block
+}
