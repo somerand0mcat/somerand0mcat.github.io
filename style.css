@@ -24,6 +24,7 @@ body {
     padding-right: 5px
 }
 
-.blog_desc {
-    display: block
+.blog {
+    display: block;
+    background-color: #18122B;
 }
