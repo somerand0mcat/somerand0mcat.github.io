@@ -1,30 +1,35 @@
-body {
-    background-color: #18122B;
-}
-
-.div {
-    background-color: #393053;
-}
-
-i {
-    color: white;
+:root {
+    --bg: #18122B;
+    --box-bg: #393053;
+    --txt: white;
+    --padding: 5px;
+    --icondisplay: inline-block;
+    --blogdisplay: block
 }
 
 body {
-    color: white;
+    background-color: var(--bg);
+}
+
+.box {
+    background-color: var(--box-bg);
+}
+
+i, body {
+    color: var(--txt)
 }
 
 .icon {
-    display: inline-block;
-    padding: 5px
+    display: var(--icondisplay);
+    padding: var(--padding)
 }
 
 .icon-yt {
-    display: inline-block;
-    padding-right: 5px
+    display: var(--icondisplay);
+    padding-right: var(--padding)
 }
 
 .blog {
-    display: block;
-    background-color: #18122B;
+    display: var(--blogdisplay);
+    background-color: var(--bg);
 }
