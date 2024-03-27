@@ -33,3 +33,7 @@ i, body {
     display: var(--blogdisplay);
     background-color: var(--bg);
 }
+
+.cat {
+    display: block
+}
