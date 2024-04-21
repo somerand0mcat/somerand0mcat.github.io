@@ -4,7 +4,7 @@
     --txt: white;
     --padding: 5px;
     --icondisplay: inline-block;
-    --blogdisplay: block
+    --announcmentdisplay: block
 }
 
 body {
@@ -29,8 +29,8 @@ i, body {
     padding-right: var(--padding)
 }
 
-.blog {
-    display: var(--blogdisplay);
+.announcment {
+    display: var(--announcmentdisplay);
     background-color: var(--bg);
 }
 
