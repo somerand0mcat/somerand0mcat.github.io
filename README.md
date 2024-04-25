@@ -1,2 +1,2 @@
 # somerand0mcat.github.io
-<img src="./website-screenshot.png" alt="somerand0mcat's website">
+<img src="./website-shot.png" alt="somerand0mcat's website">

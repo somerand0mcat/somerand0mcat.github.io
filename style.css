@@ -1,7 +1,7 @@
 :root {
-    --bg: #18122B;
-    --box-bg: #393053;
-    --txt: white;
+    --bg: #070F2B;
+    --box-bg: #1B1A55;
+    --txt: #9290C3;
     --padding: 5px;
     --icondisplay: inline-block;
     --announcmentdisplay: block
@@ -36,4 +36,8 @@ i, body {
 
 .cat {
     display: block
+}
+
+.icon:hover, .icon-yt:hover{
+    opacity: 0.5
 }
