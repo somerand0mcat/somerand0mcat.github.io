@@ -1,18 +1,18 @@
 :root {
-    --bg: #070F2B;
-    --box-bg: #1B1A55;
-    --txt: #9290C3;
+    --bg: #1e1e2e;
+    --box-bg: #313244;
+    --txt: #cdd6f4;
     --padding: 5px;
     --icondisplay: inline-block;
     --announcmentdisplay: block
 }
 
 body {
-    background-color: var(--bg);
+    background-color: var(--bg)
 }
 
 .box {
-    background-color: var(--box-bg);
+    background-color: var(--box-bg)
 }
 
 i, body {
