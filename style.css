@@ -1,5 +1,5 @@
 :root {
-    --backdrop-filter: blur(15px);
+    --backdrop-filter: blur(50px);
     --box-bg: #313244;
     --txt: white;
     --padding: 5px;
@@ -9,6 +9,7 @@
 
 body {
     background-image: url(./wall.jpg);
+    background-repeat: no-repeat
 }
 
 .box {
