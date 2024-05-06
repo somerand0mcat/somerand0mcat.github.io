@@ -1,18 +1,18 @@
 :root {
-    --bg: #1e1e2e;
+    --backdrop-filter: blur(15px);
     --box-bg: #313244;
-    --txt: #cdd6f4;
+    --txt: white;
     --padding: 5px;
     --icondisplay: inline-block;
     --announcmentdisplay: block
 }
 
 body {
-    background-color: var(--bg)
+    background-image: url(./wall.jpg);
 }
 
 .box {
-    background-color: var(--box-bg)
+    backdrop-filter: var(--backdrop-filter);
 }
 
 i, body {
@@ -31,7 +31,7 @@ i, body {
 
 .announcment {
     display: var(--announcmentdisplay);
-    background-color: var(--bg);
+    backdrop-filter: var(--backdrop-filter);
 }
 
 .cat {
