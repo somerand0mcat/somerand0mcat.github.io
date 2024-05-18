@@ -1,22 +1,21 @@
 :root {
-    --backdrop-filter: blur(50px);
-    --box-bg: #313244;
-    --txt: white;
+    --bg: #dce0e8;
+    --box-bg:#e6e9ef;
+    --txt: #4c4f69;
     --padding: 5px;
     --icondisplay: inline-block;
     --announcmentdisplay: block
 }
 
 body {
-    background-image: url(./wall.jpg);
-    background-repeat: no-repeat
+    background-color: var(--bg)
 }
 
 .box {
-    backdrop-filter: var(--backdrop-filter);
+    background-color: var(--box-bg)
 }
 
-i, body {
+i, body, h1, h2, h3, h4, em, p {
     color: var(--txt)
 }
 
