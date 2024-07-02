@@ -1,7 +1,7 @@
 :root {
-    --bg: #dce0e8;
-    --box-bg:#e6e9ef;
-    --txt: #4c4f69;
+    --bg:#181825;
+    --box-bg:#1e1e2e;
+    --txt:#cdd6f4;
     --padding: 5px;
     --icondisplay: inline-block;
     --announcmentdisplay: block
