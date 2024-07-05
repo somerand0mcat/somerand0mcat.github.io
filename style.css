@@ -43,22 +43,11 @@ i, body, h1, h2, h3, h4, em, p {
     opacity: 0.5
 }
 
-.bottom {
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    width: 100%;
-    text-align: center;
-}
-
 a {
     color: var(--links);
     text-decoration: none;
 }
 
-.fa-arrow-left, .fa-arrow-right {
-    color: var(--links)
-}
 
 .fa-arrow-left:hover, .fa-arrow-right:hover {
     opacity: 0.5
